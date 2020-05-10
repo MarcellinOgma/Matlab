@@ -22,7 +22,7 @@ function varargout = tuto1(varargin)
 
 % Edit the above text to modify the response to help tuto1
 
-% Last Modified by GUIDE v2.5 09-May-2020 21:37:26
+% Last Modified by GUIDE v2.5 10-May-2020 22:32:26
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -78,6 +78,7 @@ function pushbutton1_Callback(hObject, eventdata, handles)
 % hObject    handle to pushbutton1 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
+
 
 
 
@@ -164,7 +165,7 @@ function pushbutton10_Callback(hObject, eventdata, handles)
 % hObject    handle to pushbutton10 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-set(handles.text,"String"," ");
+
 
 
 % --------------------------------------------------------------------
@@ -200,7 +201,7 @@ function Untitled_4_Callback(hObject, eventdata, handles)
 % hObject    handle to Untitled_4 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-
+set(handles.text,"String"," ");
 
 % --------------------------------------------------------------------
 function Untitled_5_Callback(hObject, eventdata, handles)
@@ -229,3 +230,20 @@ function Untitled_9_Callback(hObject, eventdata, handles)
 % hObject    handle to Untitled_9 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
+
+
+% --------------------------------------------------------------------
+function Untitled_10_Callback(hObject, eventdata, handles)
+% hObject    handle to Untitled_10 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+
+% --------------------------------------------------------------------
+function Untitled_11_Callback(hObject, eventdata, handles)
+% hObject    handle to Untitled_11 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+uicontrol(equadiff)
+close(tuto1)
+
